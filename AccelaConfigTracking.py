@@ -12,6 +12,8 @@ gitExe = r"C:\prg\git.exe"
 #the ODBC connection string, example is in SQL Server format with a database user
 #example 'Driver={SQL Server};Server=mySqlServer;Database=myAccelaDatabase;Uid=myuser;Pwd=mypassword;'
 connectString = 'Driver={SQL Server};Server=mySqlServer;Database=myAccelaDatabase;Uid=myuser;Pwd=mypassword;'
+#For an Oracle Environment comment out the above connectString and uncomment the one below
+#connectString ='Driver={Oracle in OraClient11g_home1_32bit};Dbq=yourTNSname;Uid=yourUserID;Pwd=yourPassword'
 
 # end of user defined parms
 # ------------------------------------------------------------------------------
